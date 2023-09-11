@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "PKief.material-icon-theme", //inclusao de temas
+    "rocketseat.theme-omni",
+    "ritwickdey.LiveServer" //observaçao de arquivos
+  ]
+}
