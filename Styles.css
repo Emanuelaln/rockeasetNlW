@@ -7,9 +7,15 @@ body {
   background-color: black;
   color: #eaeaea;
   font-family: "Roboto Condensed", sans-serif;
+
+  display: grid;
+  grid-template-areas: "profile timeline";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
 }
 nav {
   padding: 64px;
+  grid-area: timeline;
 }
 .memory {
   display: flex;
@@ -36,4 +42,9 @@ nav {
   font-size: 18px;
   color: #bebebf;
   line-height: 28px;
+}
+
+aside{
+  grid-area: profile;
+
 }
